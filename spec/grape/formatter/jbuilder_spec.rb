@@ -7,7 +7,7 @@ describe Grape::Formatter::Jbuilder do
   let(:renderer) { double :render  => '' }
 
   before :each do
-    Grape::Jbuilder::Renderer.stub :new => renderer
+    allow(Grape::Jbuilder::Renderer).to receive(:new).and_return(renderer)
 
     endpoint.options[:route_options] = {:jbuilder => 'user'}
   end

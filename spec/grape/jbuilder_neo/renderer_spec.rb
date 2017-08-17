@@ -5,14 +5,14 @@ describe Grape::Jbuilder::Renderer do
   let(:scope)  { double }
 
   before :each do
-    Tilt.stub :new => engine
+    allow(Tilt).to receive(:new).and_return(engine)
   end
 
   describe '#render' do
     it "raises an error if the view path is nil" do
       renderer = Grape::Jbuilder::Renderer.new(nil, 'file')
 
-      expect { renderer.render scope }.to raise_error
+      expect { renderer.render scope }.to raise_error(RuntimeError)
     end
 
     it "creates a new Tilt engine with the file and view path" do

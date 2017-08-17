@@ -1,16 +1,18 @@
-# Grape::Jbuilder
+# Grape::JbuilderNeo
 
 Use [Jbuilder](https://github.com/rails/jbuilder) templates in [Grape](https://github.com/intridea/grape)!
 
-This gem is completely based on [grape-rabl](https://github.com/LTe/grape-rabl).
+This gem is completely based on [grape-rabl](https://github.com/ruby-grape/grape-rabl).
 
-[![Build Status](https://travis-ci.org/milkcocoa/grape-jbuilder.png?branch=master)](http://travis-ci.org/milkcocoa/grape-jbuilder)
+This gem was forked from [milkcocoa/grape-jbuilder](https://github.com/milkcocoa/grape-jbuilder) (no longer maintained) and catched up with newly ruby versions.
+
+[![Build Status](https://travis-ci.org/dogwood008/grape-jbuilder_neo.png?branch=master)](http://travis-ci.org/milkcocoa/grape-jbuilder)
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'grape-jbuilder'
+    gem 'grape-jbuilder_neo'
 
 And then execute:
 
@@ -18,7 +20,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install grape-jbuilder
+    $ gem install grape-jbuilder_neo
 
 ## Usage
 
@@ -178,6 +180,7 @@ Enjoy :)
 ## Special Thanks
 
 Special thanks to [@LTe](https://github.com/LTe) because this gem is completely based on [grape-rabl](https://github.com/LTe/grape-rabl).
+Special thanks to [@milkcocoa](https://github.com/milkcocoa) because original gem was made by him.
 
 ## Contributing
 
