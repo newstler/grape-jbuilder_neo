@@ -6,7 +6,7 @@ This gem is completely based on [grape-rabl](https://github.com/ruby-grape/grape
 
 This gem was forked from [milkcocoa/grape-jbuilder](https://github.com/milkcocoa/grape-jbuilder) (no longer maintained) and catched up with newly ruby versions.
 
-[![Build Status](https://travis-ci.org/dogwood008/grape-jbuilder_neo.png?branch=master)](http://travis-ci.org/milkcocoa/grape-jbuilder)
+[![Build Status](https://travis-ci.org/dogwood008/grape-jbuilder_neo.png?branch=master)](http://travis-ci.org/dogwood008/grape-jbuilder_neo)
 
 ## Installation
 
