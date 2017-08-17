@@ -1,6 +1,6 @@
 module Grape
   module Formatter
-    class JbuilderNeo
+    class Jbuilder
       attr_reader :env, :endpoint, :object
 
       def self.call(object, env)
