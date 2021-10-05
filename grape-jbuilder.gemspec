@@ -22,7 +22,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'jbuilder', '~> 2.7'
   spec.add_dependency 'tilt', '~> 2.0'
   spec.add_dependency 'tilt-jbuilder', '~> 0.7'
-  spec.add_dependency 'i18n', '~> 0.8'
+  spec.add_dependency 'i18n', '>= 1.6, < 2'
   spec.add_dependency 'hashie', '~> 3.5'
 
   spec.add_development_dependency 'bundler'
